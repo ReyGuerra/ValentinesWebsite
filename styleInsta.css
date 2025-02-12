@@ -3,6 +3,7 @@ body {
     /* font-family: monospace; */
     font-family: Arial, sans-serif, monospace;
     background-color: #F1E5D1;
+    color: #987070;
     text-align: center;
     margin: 0px;
 }
@@ -68,6 +69,7 @@ body {
 
 .text {
     text-align: left;
+    color: #987070;
     /* align-items: start;
     justify-content: left; */
 }
@@ -79,4 +81,27 @@ body {
 .accountName{
     margin-top: 15px;
     margin-bottom: 10px;
+}
+
+button {
+    font-size: 4vw;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: monospace;
+    color: #987070;
+    border: #C39898 4px solid;
+    background-color: #DBB5B5;
+    border-radius: 10px;
+    padding: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    margin: 20px 5px;
+    min-width: 100px;
+    /* Animation */
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #F1E5D1;
+
 }

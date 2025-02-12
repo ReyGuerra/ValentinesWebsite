@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ValentinesInsta</title>
     <link rel="stylesheet" href="./styleInsta.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
   </head>
   <body>
     <div class="profile">
@@ -130,13 +131,18 @@
       <!-- ----------------------------- POST 10 ----------------------------- -->
       <div class="post">
         <h4 class="text accountName"><strong>Gaby_and_Rey</strong></h4>
-        <img src="images/UsGallery/beMine.jpg" alt="Memory 2" />
-        <p class="text caption">
+        <img src="images/UsGallery/beMine.jpg" alt="Memory 2" id="askImg"/>
+        <p class="text caption" id="question">
           <strong>Gaby_and_Rey </strong>"Ready to make some more memories with
           me this Valentines?"
         </p>
         <p class="text date">02/14/2025</p>
       </div>
+      <div class="button-container">
+        <button type="button" id="yes-button">Yes</button>
+        <button type="button" id="no-button">No</button>
+      </div>
     </div>
+    <script src="nextScript.js"></script>
   </body>
 </html>

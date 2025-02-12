@@ -8,10 +8,10 @@ document.addEventListener("DOMContentLoaded", function() {
             "Ready to check it out?",
             // "
         ],
-        typeSpeed: 55,   // Typing speed in milliseconds
-        backSpeed: 85,   // Backspacing speed
+        typeSpeed: 65,   // Typing speed in milliseconds
+        backSpeed: 95,   // Backspacing speed
         startDelay: 700, // Delay before typing starts
-        backDelay: 1750, // Delay before erasing
+        backDelay: 1550, // Delay before erasing
         loop: false,     // Set to true if you want it to repeat
         showCursor: true,
         cursorChar: "|",
